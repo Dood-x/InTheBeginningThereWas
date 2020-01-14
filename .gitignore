@@ -1,8 +1,9 @@
 Library/
 Temp/
-Obj/
+obj/
 Build/
 Builds/
 Logs/
 MemoryCaptures/
-.vs
+.vs/
+Packages/
