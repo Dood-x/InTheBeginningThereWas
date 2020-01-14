@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\InputAction.cs" />
+    <Compile Include="Assets\Scripts\Keywords\Drink.cs" />
     <Compile Include="Assets\Scripts\Keywords\Go.cs" />
     <Compile Include="Assets\Scripts\Keywords\Inspect.cs" />
     <Compile Include="Assets\Scripts\Keywords\Listen.cs" />
@@ -77,8 +78,8 @@
     <Compile Include="Assets\Scripts\TextInput.cs" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Car accident.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Trophy.txt" />
-    <None Include="Assets\Scripts\ScriptableObjects\Scenes\drunk.txt" />
     <None Include="Assets\InTheBeginning_Scena2 - Copy.txt" />
+    <None Include="Assets\Scripts\ScriptableObjects\Scenes\drunk.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\pc.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/admin/Documents/MEGA/Unity/InTheBeginningThereWas/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

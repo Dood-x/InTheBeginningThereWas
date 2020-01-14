@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4548a7cf4a67734eb11fb6573cb546b, type: 3}
   m_Name: Go
   m_EditorClassIdentifier: 
+  priority: 0
   keyWord:
   - go
   - go to
+  - approach
