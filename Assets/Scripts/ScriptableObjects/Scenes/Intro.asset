@@ -27,8 +27,10 @@ MonoBehaviour:
     \ \\___| |_|\\__,_|_|\\___/ \\__|___/ \r\n                                             __/
     |                       __/ |                                                                             \r\n
     \                                           |___/                       |___/
-    \                                                                             \r\n###############################\n\n\n\n\n\nYou
-    are dead."
+    \                                                                             \r\n###############################\nInstructions:\nuse
+    action words such as \"look\" \"search\" combined with objects of interest\negz.
+    (\"inspect box\")\n\n###############################\n\n-----------Chapter 1-----------\n\n\n\n\nYou
+    are dead.\nYou idiot."
   sceneName: first scene
   exits:
   - keyString:
