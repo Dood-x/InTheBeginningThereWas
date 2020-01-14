@@ -23,22 +23,63 @@ public class TextInput : MonoBehaviour
 
         bool accepted = false;
 
-        for(int i = 0; i < controller.inputActions.Length; i++)
-        {
-            InputAction inputAction = controller.inputActions[i];
-            for(int j = 0; j < inputAction.keyWord.Length; j++)
-            {
-                bool twoKeywords = false;
-                if(separatedInputWords.Length == 2)
-                {
-                    twoKeywords = inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1];
-                }
+        //for(int i = 0; i < controller.inputActions.Length; i++)
+        //{
+        //    InputAction inputAction = controller.inputActions[i];
+        //    for(int j = 0; j < inputAction.keyWord.Length; j++)
+        //    {
+        //        bool twoKeywords = false;
+        //        if(separatedInputWords.Length > 2)
+        //        {
+        //            twoKeywords = inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1];
+        //        }
 
-                if (inputAction.keyWord[j] == separatedInputWords[0] || twoKeywords)
+        //        if (inputAction.keyWord[j] == separatedInputWords[0] || twoKeywords)
+        //        {
+        //            accepted = true;
+        //            inputAction.RespondToInput(controller, separatedInputWords);
+        //            break;
+        //        }
+
+                
+        //    }
+            
+        //}
+
+        if(accepted == false)
+        {
+            foreach (ActionOnObject element in controller.sceneNavigation.currentScene.actionsOnObjects)
+            {
+                for(int i = 0; i < controller.inputActions.Length; i++)
                 {
-                    accepted = true;
-                    inputAction.RespondToInput(controller, separatedInputWords);
+                    for(int j = 0; j < controller.inputActions[i].keyWord.Length; j++)
+                    {
+                        string[] actionWords = controller.inputActions[i].keyWord[j].Split(delimitedCharacters);
+
+                        if(actionWords.Length <= separatedInputWords.Length)
+                        {
+                            bool matched = true;
+                            for(int z = 0; z < actionWords.Length; z++)
+                            {
+                                if (actionWords[z] != separatedInputWords[z])
+                                    matched = false;
+                            }
+
+                            if(matched)
+                            {
+                                string objectKeyword = "";
+                                if(actionWords.Length < separatedInputWords.Length)
+                                {
+                                    objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
+                                }
+
+                                accepted = controller.sceneNavigation.ExecuteActionOnObject(controller.inputActions[i], objectKeyword);
+                            }
+                        }
+
+                    }
                 }
+                
             }
             
         }
