@@ -19,7 +19,7 @@ MonoBehaviour:
   sceneName: second scene
   exits: []
   actionsOnObjects:
-  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - game
     resultDescription: 'The game is about team of idiot developers who are making
@@ -28,7 +28,7 @@ MonoBehaviour:
       There are great prizes for the winners!
 
 '
-  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
     - prizes
     - prize
