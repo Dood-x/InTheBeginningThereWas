@@ -40,8 +40,24 @@ public class SceneNavigation : MonoBehaviour
         }
     }
 
-    //public ExecuteActionOnObject(string sceneChangeNoun)
-    //{ }
+    public bool ExecuteActionOnObject(InputAction action, string objectKeyword)
+    {
+        foreach (ActionOnObject aoo in currentScene.actionsOnObjects)
+        {
+            if(action == aoo.action)
+            {
+                for(int i =0; i < aoo.keywordObject.Length; i++)
+                {
+                    if(objectKeyword == aoo.keywordObject[i])
+                    {
+                        controller.LogStringWithReturn(aoo.resultDescription);
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
 
     public void ClearExits()
     {

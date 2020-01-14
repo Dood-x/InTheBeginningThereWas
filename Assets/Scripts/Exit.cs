@@ -7,6 +7,8 @@ public class Exit
 {
     public string[] keyString;
 
+    public InputAction action;
+
     public string exitDescription;
 
     public Scene valueScene;

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: Idiots
+  m_EditorClassIdentifier: 
+  sceneDescription: In the background you can see the logo of Global Game Jam.
+  sceneName: 5idiots
+  exits: []
+  sceneObjects: []
+  actionsOnObjects:
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: Teams of people sitting around computers in a big hall.
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: There is main stage where somebody is saying something.
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: "The man is saying: \"Welcome to the Global Game Jam!\"\r"
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: '5 idiots are sitting in front of a computer. Looking at the
+      screen with their eyes wide open. They are tense. ou can see sweat on their
+      foreheads. Tension can be cut with a knife. Clock is ticking. 10 more seconds.
+      9, 8 , 7... One of them falls from the chair, others don''t even notice. 5,
+      4... You can hear fly landing on one of them. 3, 2, 1. And we''re off. Message
+      appears on the screen:'
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: "Message says: \"At the beginning there was?\"\r"
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    resultDescription: The Big Bang
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: dfgd
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
+  - action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 

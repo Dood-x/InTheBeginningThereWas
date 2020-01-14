@@ -6,8 +6,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/InputActions/Question", order = 1)]
 public class Question : InputAction
 {
-    public override void RespondToInput(GameController controller, string[] separateInputWords)
+    public override void RespondToInput(GameController controller, string objectKeyword)
     {
-        controller.sceneNavigation.AttemptToChangeScenes(separateInputWords[separateInputWords.Length-1]);
+        controller.sceneNavigation.AttemptToChangeScenes(objectKeyword);
     }
 }

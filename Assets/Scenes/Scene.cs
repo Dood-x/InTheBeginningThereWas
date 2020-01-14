@@ -12,9 +12,10 @@ public class Scene : ScriptableObject
     public Exit[] exits;
 
 
-    public string[] sceneObjects;
+    //public string[] sceneObjects;
 
-    public Dictionary<string, string> objectDescriptions = new Dictionary<string, string>();
+    //public Dictionary<string, string> objectDescriptions = new Dictionary<string, string>();
     public List<ActionOnObject> actionsOnObjects = new List<ActionOnObject>();
+    public ActionOnObject exitScene;
 
 }

@@ -24,6 +24,11 @@ MonoBehaviour:
   sceneObjects:
   - accident
   - car
-  - car
-  - car
-  actionsOnObjects: []
+  - bag
+  - trophy
+  actionsOnObjects:
+  - action: {fileID: 0}
+    keywordObject:
+    - 
+    - 
+    resultDescription: 'here are the keywords:'

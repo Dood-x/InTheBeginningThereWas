@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class ActionOnObject
 {
-    public InputAction inputAction;
-    public string keywordObject;
+    public InputAction action;
+    public string[] keywordObject;
     [TextArea]
     public string resultDescription;
 }
