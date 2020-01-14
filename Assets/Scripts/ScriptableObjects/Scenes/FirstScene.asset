@@ -48,7 +48,7 @@ MonoBehaviour:
       Next to you is a smashed bottle with pieces of glass all around, one of which
       has a label on it.
 
-      In the back of the car is your backback.'
+      In the back of the car is your backpack.'
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - car

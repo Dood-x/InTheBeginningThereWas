@@ -630,14 +630,18 @@
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\InputAction.cs" />
+    <Compile Include="Assets\Scripts\Keywords\Drink.cs" />
     <Compile Include="Assets\Scripts\Keywords\Go.cs" />
     <Compile Include="Assets\Scripts\Keywords\Inspect.cs" />
+    <Compile Include="Assets\Scripts\Keywords\Listen.cs" />
     <Compile Include="Assets\Scripts\Keywords\Look.cs" />
+    <Compile Include="Assets\Scripts\Keywords\LookInside.cs" />
     <Compile Include="Assets\Scripts\Keywords\Question.cs" />
     <Compile Include="Assets\Scripts\SceneNavigation.cs" />
     <Compile Include="Assets\Scripts\TextInput.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\InTheBeginning_Scena2 - Copy.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Car accident.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Trophy.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\drunk.txt" />

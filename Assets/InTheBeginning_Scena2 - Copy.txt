@@ -4,9 +4,10 @@ SCENA 2
 THREE HOURS EARLIER:
 
 6.
-Everyone in the team are fighting about the stupidity of the game and wants more from the prize money.
+You are on the Global Game Jam location in local sports arena and participate in a global game development competition.
+Everyone in your team are fighting about the stupidity of the game and wants more from the prize money.
 
--Why is game about?
+-What is the game about?
 -What are the prizes?
 
 The game is about team of idiot	developers who are making a game on a Global Game Jam.
@@ -19,7 +20,7 @@ The prizes on GGJ are 1 000 000 $ for the best game, 500k for second best and 10
 
 -Drink wine
 
-You drink all the wine bottles alone and you are getting ready to build and upload game to the main Game Jam Site.
+You drink all the wine bottles alone and you are finishing the game. You are ready to build and upload this stupid game to the main Game Jam Site.
 
 
 
@@ -33,7 +34,7 @@ You drink one more beer and getting prepared to present your game.
 -Go and present the game
 
 3.
-After you present the game the crowd starts screaming and cheering and they are shocked because the game is ultimate fun.
+After you present the game the crowd starts screaming and cheering and they are shocked because the game is ultimate fun. You suddenly get invitation from someone to go for a drink.
 
 -Go to bar
 
@@ -48,6 +49,7 @@ Everything is set for winners announcment and people are gathering in front of m
 
 You are seeing your fellow develeopers drunk and tired with confused look on their face.
 Everyone is waiting for announcment and seconds later you hear that your team is winner of Global Game Jam.
+Its time for one more drink.
 
 
 
@@ -57,11 +59,11 @@ Everyone drinks enormous amount of alcohol and celebrate...
 
 -Drink more alcohol
 
-You are getting more and more drunk an your vision gets blurry.
+You are getting more and more drunk an your vision gets blurry. You can barely see the Trophy.
 
 -Look at Trophy
 
-Trophy is big shiny cup and you are pouring wine in the Trophy and drink.
+Trophy is big shiny cup and you are pouring wine in the Trophy. You drink from it like a thirsty animal.
 
 
 
