@@ -23,30 +23,30 @@ public class TextInput : MonoBehaviour
 
         bool accepted = false;
 
-        //for(int i = 0; i < controller.inputActions.Length; i++)
-        //{
-        //    InputAction inputAction = controller.inputActions[i];
-        //    for(int j = 0; j < inputAction.keyWord.Length; j++)
-        //    {
-        //        bool twoKeywords = false;
-        //        if(separatedInputWords.Length > 2)
-        //        {
-        //            twoKeywords = inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1];
-        //        }
+        for (int i = 0; i < controller.inputActions.Length; i++)
+        {
+            InputAction inputAction = controller.inputActions[i];
+            for (int j = 0; j < inputAction.keyWord.Length; j++)
+            {
+                bool twoKeywords = false;
+                if (separatedInputWords.Length > 2)
+                {
+                    twoKeywords = inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1];
+                }
 
-        //        if (inputAction.keyWord[j] == separatedInputWords[0] || twoKeywords)
-        //        {
-        //            accepted = true;
-        //            inputAction.RespondToInput(controller, separatedInputWords);
-        //            break;
-        //        }
+                if (inputAction.keyWord[j] == separatedInputWords[0] || twoKeywords)
+                {
+                    accepted = true;
+                    inputAction.RespondToInput(controller, separatedInputWords);
+                    break;
+                }
 
-                
-        //    }
-            
-        //}
 
-        if(accepted == false)
+            }
+
+        }
+
+        if (accepted == false)
         {
             foreach (ActionOnObject element in controller.sceneNavigation.currentScene.actionsOnObjects)
             {
