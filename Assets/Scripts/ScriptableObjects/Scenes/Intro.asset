@@ -27,15 +27,17 @@ MonoBehaviour:
     \ \\___| |_|\\__,_|_|\\___/ \\__|___/ \r\n                                             __/
     |                       __/ |                                                                             \r\n
     \                                           |___/                       |___/
-    \                                                                             \r\n###############################\n\n\n\n\n\nYou
-    are dead."
+    \                                                                             \r\n###############################\nInstructions:\nuse
+    action words such as \"look\" \"search\" combined with objects of interest\negz.
+    (\"inspect box\")\n\n###############################\n\n-----------Chapter 1-----------\n\n\n\n\nYou
+    are dead.\nYou idiot."
   sceneName: first scene
   exits:
   - keyString:
     - 
     action: {fileID: 0}
     exitDescription: 
-    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
+    valueScene: {fileID: 11400000, guid: 6af9e977255e3c94fbf10bc65dc2786e, type: 2}
   anyInputExit: 1
   actionsOnObjects: []
   exitScene:
