@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: 
+  sceneDescription: 'next scene is described here
+
+'
+  sceneName: scene2
+  exits:
+  - keyString: back
+    exitDescription: type go back to go back
+    valueScene: {fileID: 11400000, guid: acbf0bb1a0f9e844b98a5ac0373e7f1d, type: 2}

@@ -1,0 +1,56 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class TextInput : MonoBehaviour
+{
+    public InputField inputField;
+    private GameController controller;
+
+    void Awake()
+    {
+        controller = GetComponent<GameController>();
+        inputField.onEndEdit.AddListener(AcceptInput);
+    }
+    void AcceptInput(string userInput)
+    {
+        userInput = userInput.ToLower();
+        controller.LogStringWithReturn(userInput);
+
+        char[] delimitedCharacters = { ' ' };
+        string[] separatedInputWords = userInput.Split(delimitedCharacters);
+
+        bool accepted = false;
+
+        for(int i = 0; i < controller.inputActions.Length; i++)
+        {
+            InputAction inputAction = controller.inputActions[i];
+            for(int j = 0; j < inputAction.keyWord.Length; j++)
+            {
+                Debug.Log("" + inputAction.keyWord[j] + " " + separatedInputWords[0] + separatedInputWords[1]);
+
+                if (inputAction.keyWord[j] == separatedInputWords[0] || inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1])
+                {
+                    accepted = true;
+                    inputAction.RespondToInput(controller, separatedInputWords);
+                }
+            }
+            
+        }
+
+        if (accepted == false)
+        {
+            controller.LogStringWithReturn("Nothing happens.");
+        }
+
+        InputComplete();
+    }
+
+    void InputComplete()
+    {
+        controller.DisplayLoggedText();
+        inputField.ActivateInputField();
+        inputField.text = null;
+    }
+}
