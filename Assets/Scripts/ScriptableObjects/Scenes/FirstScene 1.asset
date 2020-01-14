@@ -19,6 +19,7 @@ MonoBehaviour:
     \n\n#####################\n\nYou are dead."
   sceneName: first scene
   exits: []
+  anyInputExit: 0
   actionsOnObjects:
   - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
     keywordObject:
@@ -100,15 +101,14 @@ MonoBehaviour:
     resultDescription: There is a person ID card, credit card, a little bit of cash.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
-    - ID
-    - ID card
+    - id
+    - id card
     resultDescription: This is you with a picture of you, with your birth date.Nothing
       out of the ordinary here except you wished it told you when you died below your
       date of birth,maybe you could have done more things in your spare time.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - credit card
-    - money card
     resultDescription: This is your credit card but you don't know if there is any
       money on it left.Whatever on it is left,you would have probably spend it on
       fast food and probably some sweets. Nice way of saving money you idiot.
