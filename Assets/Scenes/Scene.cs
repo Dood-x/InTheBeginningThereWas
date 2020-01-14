@@ -11,6 +11,7 @@ public class Scene : ScriptableObject
     public string sceneName;
     public Exit[] exits;
 
+    public bool anyInputExit = false;
 
     //public string[] sceneObjects;
 

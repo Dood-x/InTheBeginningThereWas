@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  sceneDescription: "\r\n  _____         _   _            _                _             _
+    \              _   _                                             _     _ _       _
+    \       \r\n |_   _|       | | | |          | |              (_)           (_)
+    \            | | | |                                           (_)   | (_)     |
+    |       \r\n   | |  _ __   | |_| |__   ___  | |__   ___  __ _ _ _ __  _ __  _
+    _ __   __ _  | |_| |__   ___ _ __ ___  __      _____ _ __ ___   _  __| |_  ___
+    | |_ ___  \r\n   | | | '_ \\  | __| '_ \\ / _ \\ | '_ \\ / _ \\/ _` | | '_ \\|
+    '_ \\| | '_ \\ / _` | | __| '_ \\ / _ | '__/ _ \\ \\ \\ /\\ / / _ | '__/ _ \\
+    | |/ _` | |/ _ \\| __/ __| \r\n  _| |_| | | | | |_| | | |  __/ | |_) |  __| (_|
+    | | | | | | | | | | | | (_| | | |_| | | |  __| | |  __/  \\ V  V |  __| | |  __/
+    | | (_| | | (_) | |_\\__ \\ \r\n |_____|_| |_|  \\__|_| |_|\\___| |_.__/ \\___|\\__,
+    |_|_| |_|_| |_|_|_| |_|\\__, |  \\__|_| |_|\\___|_|  \\___|   \\_/\\_/ \\___|_|
+    \ \\___| |_|\\__,_|_|\\___/ \\__|___/ \r\n                                             __/
+    |                       __/ |                                                                             \r\n
+    \                                           |___/                       |___/
+    \                                                                             \r\n###############################\n\n\n\n\n\nYou
+    are dead."
+  sceneName: first scene
+  exits:
+  - keyString:
+    - 
+    action: {fileID: 0}
+    exitDescription: 
+    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
+  anyInputExit: 1
+  actionsOnObjects: []
+  exitScene:
+    action: {fileID: 0}
+    keywordObject:
+    - 
+    resultDescription: 
