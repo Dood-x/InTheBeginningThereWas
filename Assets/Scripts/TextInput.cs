@@ -24,7 +24,7 @@ public class TextInput : MonoBehaviour
         bool accepted = false;
 
         bool foundAction = false;
-        InputAction action = null;
+        List<InputAction> actions = new List<InputAction>();
 
         //match the input action with the user input
         for (int i = 0; i < controller.inputActions.Length; i++)
@@ -45,8 +45,7 @@ public class TextInput : MonoBehaviour
                     if(matched)
                     {
                         foundAction = true;
-                        action = controller.inputActions[i];
-                        break;
+                        actions.Add(controller.inputActions[i]);
                     }
                 }
 
@@ -58,6 +57,17 @@ public class TextInput : MonoBehaviour
             controller.LogStringWithReturn("Nothing happens.");
             InputComplete();
             return;
+        }
+
+        InputAction action = null;
+        int priority = 0;
+        foreach(InputAction e in actions)
+        {
+            if(e.priority >= priority)
+            {
+                priority = e.priority;
+                action = e;
+            }
         }
 
 
@@ -89,11 +99,9 @@ public class TextInput : MonoBehaviour
         {
             foreach (ActionOnObject element in controller.sceneNavigation.currentScene.actionsOnObjects)
             {
-                for(int i = 0; i < controller.inputActions.Length; i++)
-                {
-                    for(int j = 0; j < controller.inputActions[i].keyWord.Length; j++)
+                    for(int j = 0; j <action.keyWord.Length; j++)
                     {
-                        string[] actionWords = controller.inputActions[i].keyWord[j].Split(delimitedCharacters);
+                        string[] actionWords = action.keyWord[j].Split(delimitedCharacters);
 
                         if(actionWords.Length <= separatedInputWords.Length)
                         {
@@ -112,14 +120,13 @@ public class TextInput : MonoBehaviour
                                     objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
                                 }
 
-                                accepted = controller.sceneNavigation.ExecuteActionOnObject(controller.inputActions[i], objectKeyword);
+                                accepted = controller.sceneNavigation.ExecuteActionOnObject(action, objectKeyword);
                                 InputComplete();
                                 return;
                             }
                         }
 
                     }
-                }
                 
             }
             
