@@ -73,7 +73,6 @@
     <Compile Include="Assets\Scripts\Keywords\Question.cs" />
     <Compile Include="Assets\Scripts\SceneNavigation.cs" />
     <Compile Include="Assets\Scripts\TextInput.cs" />
-    <Compile Include="Assets\Scripts\WhatHappened.cs" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Car accident.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\Trophy.txt" />
     <None Include="Assets\Scripts\ScriptableObjects\Scenes\drunk.txt" />
