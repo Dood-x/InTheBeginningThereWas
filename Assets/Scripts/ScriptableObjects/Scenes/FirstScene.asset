@@ -12,11 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: FirstScene
   m_EditorClassIdentifier: 
-  sceneDescription: " .________ .___     .___.__          __          \r\n |   ____/
-    |   |  __| _/|__|  ____ _/  |_  ______\r\n |____  \\  |   | / __ | |  | /  _ \\\\
-    \  __\\/  ___/\r\n /       \\ |   |/ /_/ | |  |(  <_> )|  |  \\___ \\ \r\n/______
-    \ / |___|\\____ | |__| \\____/ |__| /____  >\r\n       \\/            \\/                       \\/
-    \n\n#####################\n\nYou are dead."
+  sceneDescription: "\r\n  _____         _   _            _                _             _
+    \              _   _                                             _     _ _       _
+    \       \r\n |_   _|       | | | |          | |              (_)           (_)
+    \            | | | |                                           (_)   | (_)     |
+    |       \r\n   | |  _ __   | |_| |__   ___  | |__   ___  __ _ _ _ __  _ __  _
+    _ __   __ _  | |_| |__   ___ _ __ ___  __      _____ _ __ ___   _  __| |_  ___
+    | |_ ___  \r\n   | | | '_ \\  | __| '_ \\ / _ \\ | '_ \\ / _ \\/ _` | | '_ \\|
+    '_ \\| | '_ \\ / _` | | __| '_ \\ / _ | '__/ _ \\ \\ \\ /\\ / / _ | '__/ _ \\
+    | |/ _` | |/ _ \\| __/ __| \r\n  _| |_| | | | | |_| | | |  __/ | |_) |  __| (_|
+    | | | | | | | | | | | | (_| | | |_| | | |  __| | |  __/  \\ V  V |  __| | |  __/
+    | | (_| | | (_) | |_\\__ \\ \r\n |_____|_| |_|  \\__|_| |_|\\___| |_.__/ \\___|\\__,
+    |_|_| |_|_| |_|_|_| |_|\\__, |  \\__|_| |_|\\___|_|  \\___|   \\_/\\_/ \\___|_|
+    \ \\___| |_|\\__,_|_|\\___/ \\__|___/ \r\n                                             __/
+    |                       __/ |                                                                             \r\n
+    \                                           |___/                       |___/
+    \                                                                             \r\n###############################\n\n\n\n\n\nYou
+    are dead."
   sceneName: first scene
   exits: []
   actionsOnObjects:
@@ -36,7 +48,7 @@ MonoBehaviour:
       Next to you is a smashed bottle with pieces of glass all around, one of which
       has a label on it.
 
-      In the back of the car is your backback.'
+      In the back of the car is your backpack.'
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - car

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: SecondScene
+  m_EditorClassIdentifier: 
+  sceneDescription: "THREE HOURS EARLIER:\nYou are on the Global Game Jam location
+    in local sports arena and participate in a global game development competition.\r\nEveryone
+    in your team are fighting about the stupidity of the game and wants more from
+    the prize money.\n"
+  sceneName: second scene
+  exits: []
+  actionsOnObjects:
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - game
+    resultDescription: 'The game is about team of idiot developers who are making
+      a game on a Global Game Jam.
+
+      There are great prizes for the winners!
+
+'
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - prizes
+    - prize
+    resultDescription: "The prizes on GGJ are 1 000 000 $ for the best game, 500k
+      for second best and 100k for third best game. \nOut of the enormous frustration
+      you go at the bar and order ten beers and 3 bottles of wine."
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - beer
+    - wine
+    - alcohol
+    resultDescription: 'You drink all the wine bottles alone and you are finishing
+      the game. You are ready to build and upload this stupid game to the main Game
+      Jam Site.
+
+      You look at other teams and everyone is happy because they made a good game.'
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - other
+    - games
+    - game
+    resultDescription: "You played games from other teams and you get more frustrated
+      by the quality of your game.\r\nYou drink one more beer and getting prepared
+      to present your game."
+  - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
+    keywordObject:
+    - presentation
+    - present
+    - game
+    resultDescription: "After you present the game the crowd starts screaming and
+      cheering and they are shocked because the game is ultimate fun. \nYou suddenly
+      get invitation from someone to go for a drink."
+  - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
+    keywordObject:
+    - drink
+    - wine
+    - beer
+    - alcohol
+    resultDescription: 'You are at the bar ordering another bottle of wine. You cant
+      believe people like your game.
+
+      Everything is set for winners announcment and people are gathering in front
+      of main GGJ stage.'
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject: []
+    resultDescription: "You are seeing your fellow develeopers drunk and tired with
+      confused look on their face.\r\nEveryone is waiting for announcment and seconds
+      later you hear that your team is winner of Global Game Jam. It's time for one
+      more drink..."
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - beer
+    - wine
+    - alcohol
+    resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
+      and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate...\n"
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - beer
+    - wine
+    - alcohol
+    resultDescription: You are getting more and more drunk an your vision gets blurry.
+      You can barely see the Trophy.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - trophy
+    resultDescription: Trophy is a big shiny cup and you are pouring wine into it.
+      You drink from it like a thirsty animal.
+  exitScene:
+    action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
