@@ -633,7 +633,9 @@
     <Compile Include="Assets\Scripts\Keywords\Drink.cs" />
     <Compile Include="Assets\Scripts\Keywords\Go.cs" />
     <Compile Include="Assets\Scripts\Keywords\Inspect.cs" />
+    <Compile Include="Assets\Scripts\Keywords\Listen.cs" />
     <Compile Include="Assets\Scripts\Keywords\Look.cs" />
+    <Compile Include="Assets\Scripts\Keywords\LookInside.cs" />
     <Compile Include="Assets\Scripts\Keywords\Question.cs" />
     <Compile Include="Assets\Scripts\SceneNavigation.cs" />
     <Compile Include="Assets\Scripts\TextInput.cs" />
