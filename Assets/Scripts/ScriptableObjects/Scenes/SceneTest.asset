@@ -20,4 +20,8 @@ MonoBehaviour:
     exitDescription: type go next for the next scene
     valueScene: {fileID: 11400000, guid: 8ff652aee9f3e0348ba8d7f9bf32e212, type: 2}
   sceneObjects: []
-  actionsOnObjects: []
+  actionsOnObjects:
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - bottle
+    resultDescription: thing is happen

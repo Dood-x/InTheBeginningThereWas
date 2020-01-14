@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e21f04c524454449b242488b57b2f02, type: 3}
   m_Name: Inspect
   m_EditorClassIdentifier: 
-  keyWord: []
+  keyWord:
+  - inspect
+  - examine
+  - search
