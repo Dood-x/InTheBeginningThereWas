@@ -12,23 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: IntroScene
   m_EditorClassIdentifier: 
-  sceneDescription: You have died.
+  sceneDescription: '//////////
+
+    5Idiots
+
+    /////////
+
+    Here are some helpful keywords to use:
+
+    inspect
+
+    look
+
+
+    //////////////////
+
+
+
+    You have died.'
   sceneName: intro
   exits:
   - keyString: []
+    action: {fileID: 0}
     exitDescription: 
     valueScene: {fileID: 0}
   - keyString: []
+    action: {fileID: 0}
     exitDescription: 
     valueScene: {fileID: 0}
-  sceneObjects:
-  - accident
-  - car
-  - bag
-  - trophy
   actionsOnObjects:
   - action: {fileID: 0}
     keywordObject:
     - 
     - 
     resultDescription: 'here are the keywords:'
+  exitScene:
+    action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 
