@@ -19,7 +19,7 @@ MonoBehaviour:
   sceneName: second scene
   exits: []
   actionsOnObjects:
-  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - game
     resultDescription: 'The game is about team of idiot developers who are making
@@ -28,13 +28,14 @@ MonoBehaviour:
       There are great prizes for the winners!
 
 '
-  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
     - prizes
     - prize
     resultDescription: "The prizes on GGJ are 1 000 000 $ for the best game, 500k
       for second best and 100k for third best game. \nOut of the enormous frustration
-      you go at the bar and order ten beers and 3 bottles of wine."
+      you go at the bar and order ten beers and 3 bottles of wine. Idiots makes you
+      thirsty."
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
     - beer
@@ -44,7 +45,8 @@ MonoBehaviour:
       the game. You are ready to build and upload this stupid game to the main Game
       Jam Site.
 
-      You look at other teams and everyone is happy because they made a good game.'
+      You look at other teams and everyone is happy because they made a good game.
+      Life is good when you arent an idiot.'
   - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
     - other
@@ -58,9 +60,12 @@ MonoBehaviour:
     - presentation
     - present
     - game
-    resultDescription: "After you present the game the crowd starts screaming and
-      cheering and they are shocked because the game is ultimate fun. \nYou suddenly
-      get invitation from someone to go for a drink."
+    resultDescription: 'After you present the game the crowd starts screaming and
+      cheering and they are shocked because the game is ultimate fun. You are asking
+      yourself what kind of world do you live in.
+
+      You suddenly get invitation from someone who likes your game to go for a drink.
+      He must be an idiot.'
   - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
     keywordObject:
     - drink
