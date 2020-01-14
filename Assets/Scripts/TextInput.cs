@@ -19,6 +19,8 @@ public class TextInput : MonoBehaviour
         if(controller.sceneNavigation.currentScene.anyInputExit)
         {
             controller.sceneNavigation.AttemptToChangeScenes("");
+            InputComplete();
+            return;
 
         }
         userInput = userInput.ToLower();
