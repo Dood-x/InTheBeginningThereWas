@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f07632e98ed324cab137e48270dffc, type: 3}
   m_Name: LookInside
   m_EditorClassIdentifier: 
+  priority: 1
   keyWord:
   - look inside
   - look through
