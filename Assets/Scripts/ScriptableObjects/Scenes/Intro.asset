@@ -37,7 +37,7 @@ MonoBehaviour:
     - 
     action: {fileID: 0}
     exitDescription: 
-    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
+    valueScene: {fileID: 11400000, guid: 6af9e977255e3c94fbf10bc65dc2786e, type: 2}
   anyInputExit: 1
   actionsOnObjects: []
   exitScene:
