@@ -8,6 +8,6 @@ public class WhatHappened : InputAction
 {
     public override void RespondToInput(GameController controller, string[] separateInputWords)
     {
-        controller.sceneNavigation.AttemptToChangeScenes(separateInputWords[1]);
+        controller.sceneNavigation.AttemptToChangeScenes(separateInputWords[separateInputWords.Length-1]);
     }
 }

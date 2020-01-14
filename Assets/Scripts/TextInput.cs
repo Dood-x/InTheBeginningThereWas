@@ -28,9 +28,13 @@ public class TextInput : MonoBehaviour
             InputAction inputAction = controller.inputActions[i];
             for(int j = 0; j < inputAction.keyWord.Length; j++)
             {
-                Debug.Log("" + inputAction.keyWord[j] + " " + separatedInputWords[0] + separatedInputWords[1]);
+                bool twoKeywords = false;
+                if(separatedInputWords.Length == 2)
+                {
+                    twoKeywords = inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1];
+                }
 
-                if (inputAction.keyWord[j] == separatedInputWords[0] || inputAction.keyWord[j] == separatedInputWords[0] + " " + separatedInputWords[1])
+                if (inputAction.keyWord[j] == separatedInputWords[0] || twoKeywords)
                 {
                     accepted = true;
                     inputAction.RespondToInput(controller, separatedInputWords);
