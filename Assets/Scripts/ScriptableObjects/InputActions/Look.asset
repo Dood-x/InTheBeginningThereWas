@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f353fdc8925fe4f4397d10a643e23b5f, type: 3}
   m_Name: Look
   m_EditorClassIdentifier: 
-  keyWord: []
+  keyWord:
+  - look
+  - look at
+  - look around

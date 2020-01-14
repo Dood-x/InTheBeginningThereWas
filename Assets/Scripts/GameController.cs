@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     [HideInInspector]
     public List<string> interactionDescriptionInRoom = new List<string>();
 
+
     public InputAction[] inputActions;
     List<string> actionLog = new List<string>();
     // Start is called before the first frame update

@@ -40,6 +40,9 @@ public class SceneNavigation : MonoBehaviour
         }
     }
 
+    //public ExecuteActionOnObject(string sceneChangeNoun)
+    //{ }
+
     public void ClearExits()
     {
         exitDictionary.Clear();
