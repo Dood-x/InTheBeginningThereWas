@@ -41,19 +41,19 @@ MonoBehaviour:
     - beer
     - wine
     - alcohol
-    resultDescription: 'You drink all the wine bottles alone and you are finishing
+    resultDescription: 'You drink all the bottles of alcohol and you are finishing
       the game. You are ready to build and upload this stupid game to the main Game
       Jam Site.
 
-      You look at other teams and everyone is happy because they made a good game.
-      Life is good when you arent an idiot.'
+      You look at other teams and wonder about their games. Everyone is happy because
+      they made a decent game. Life is good when you arent an idiot.'
   - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
     - other
     - games
     - game
     resultDescription: "You played games from other teams and you get more frustrated
-      by the quality of your game.\r\nYou drink one more beer and getting prepared
+      by the quality of your game.\r\nYou drink three more beers and getting prepared
       to present your game."
   - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
     keywordObject:
@@ -65,10 +65,10 @@ MonoBehaviour:
       yourself what kind of world do you live in.
 
       You suddenly get invitation from someone who likes your game to go for a drink.
-      He must be an idiot.'
-  - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
+      He must be an idiot. '
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - drink
+    - whiskey
     - wine
     - beer
     - alcohol
