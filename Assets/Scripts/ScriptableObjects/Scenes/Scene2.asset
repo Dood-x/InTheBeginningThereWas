@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: Scene2
   m_EditorClassIdentifier: 
-  sceneDescription: 'next scene is described here
-
-'
+  sceneDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
+    and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
   sceneName: scene2
   exits:
   - keyString:

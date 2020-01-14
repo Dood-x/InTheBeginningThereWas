@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: FirstScene
+  m_EditorClassIdentifier: 
+  sceneDescription: " .________ .___     .___.__          __          \r\n |   ____/
+    |   |  __| _/|__|  ____ _/  |_  ______\r\n |____  \\  |   | / __ | |  | /  _ \\\\
+    \  __\\/  ___/\r\n /       \\ |   |/ /_/ | |  |(  <_> )|  |  \\___ \\ \r\n/______
+    \ / |___|\\____ | |__| \\____/ |__| /____  >\r\n       \\/            \\/                       \\/
+    \n\n#####################\n\nYou are dead."
+  sceneName: first scene
+  exits: []
+  actionsOnObjects:
+  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+    keywordObject:
+    - 
+    resultDescription: 'You died in a car accident.
+
+      The car wreckage is on the side of the road in front of a tree. Blood is pouring
+      out of the car.'
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - inside
+    - car inside
+    - inside the car
+    resultDescription: 'You are dead inside the car, slumped over the steering wheel.
+      Next to you is a smashed bottle with pieces of glass all around, one of which
+      has a label on it.
+
+      In the back of the car is your backpack.'
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - car
+    resultDescription: 'The front of the car is smashed into a tree.
+
+      You remember losing control of the car. The door has come off. You can see the
+      inside of the car.'
+  exitScene:
+    action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 

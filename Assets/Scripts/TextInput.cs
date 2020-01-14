@@ -77,7 +77,8 @@ public class TextInput : MonoBehaviour
                     {
                         accepted = true;
                         action.RespondToInput(controller, objectKeyword);
-                        break;
+                        InputComplete();
+                        return;
                     }
                 }
             }
@@ -112,6 +113,8 @@ public class TextInput : MonoBehaviour
                                 }
 
                                 accepted = controller.sceneNavigation.ExecuteActionOnObject(controller.inputActions[i], objectKeyword);
+                                InputComplete();
+                                return;
                             }
                         }
 
