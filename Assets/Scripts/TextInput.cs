@@ -86,18 +86,23 @@ public class TextInput : MonoBehaviour
                 for(int i = 0; i < exit.keyString.Length; i++)
                 {
                     string objectKeyword = "";
-                    if (action.keyWord.Length < separatedInputWords.Length)
+                    for(int j =0; j < action.keyWord.Length; j++)
                     {
-                        objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
-                    }
+                        string[] actionWords = action.keyWord[j].Split(delimitedCharacters);
+                        if (actionWords.Length < separatedInputWords.Length)
+                        {
+                            objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
+                        }
 
-                    if (exit.keyString[i] == objectKeyword)
-                    {
-                        accepted = true;
-                        action.RespondToInput(controller, objectKeyword);
-                        InputComplete();
-                        return;
+                        if (exit.keyString[i] == objectKeyword)
+                        {
+                            accepted = true;
+                            action.RespondToInput(controller, objectKeyword);
+                            InputComplete();
+                            return;
+                        }
                     }
+                    
                 }
             }
         }
