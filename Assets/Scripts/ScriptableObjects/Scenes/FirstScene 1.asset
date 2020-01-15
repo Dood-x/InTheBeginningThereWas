@@ -17,7 +17,13 @@ MonoBehaviour:
     grass until you went head first into a tree slamming your head on the drivers
     wheel and leaving some notable wheel tracks along the way."
   sceneName: first scene
-  exits: []
+  exits:
+  - keyString:
+    - award
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    exitDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
+    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
   anyInputExit: 0
   actionsOnObjects:
   - action: {fileID: 11400000, guid: 0807f4ba16dfa6a4991b2694075b6ec9, type: 2}
@@ -182,9 +188,11 @@ MonoBehaviour:
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - award
-    resultDescription: The award  is written out to you with price beeing 5000kn for
-      winning the game jam.You remembered something.
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
   exitScene:
-    action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - award
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
