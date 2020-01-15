@@ -17,7 +17,12 @@ MonoBehaviour:
     in your team are fighting about the stupidity of the game and wants more from
     the prize money.\n"
   sceneName: second scene
-  exits: []
+  exits:
+  - keyString: []
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    exitDescription: Trophy is a big shiny cup and you are pouring wine into it. You
+      drink from it like a thirsty animal.
+    valueScene: {fileID: 11400000, guid: 4af39068d7b391d46837b7428e8b1c98, type: 2}
   anyInputExit: 0
   actionsOnObjects:
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
@@ -70,9 +75,9 @@ MonoBehaviour:
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
     - beer
-    - wine
     - alcohol
-    - whiskey
+    - 
+    - 
     resultDescription: 'You are at the bar ordering another bottle of wine. You cant
       believe people like your game.
 
@@ -89,25 +94,20 @@ MonoBehaviour:
       more drink..."
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - beer
+    - 
     - 'wine '
-    - alcohol
-    - whiskey
+    - 
+    - 
     resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
       and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - 'beer '
-    - wine
+    - ' '
+    - 
     - whiskey
-    - alcohol
+    - 
     resultDescription: You are getting more and more drunk an your vision gets blurry.
       You can barely see the Trophy.
-  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
-    keywordObject:
-    - trophy
-    resultDescription: Trophy is a big shiny cup and you are pouring wine into it.
-      You drink from it like a thirsty animal.
   exitScene:
     action: {fileID: 0}
     keywordObject: []
