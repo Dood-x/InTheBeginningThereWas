@@ -12,29 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: FirstScene 1
   m_EditorClassIdentifier: 
-  sceneDescription: " .________ .___     .___.__          __          \r\n |   ____/
-    |   |  __| _/|__|  ____ _/  |_  ______\r\n |____  \\  |   | / __ | |  | /  _ \\\\
-    \  __\\/  ___/\r\n /       \\ |   |/ /_/ | |  |(  <_> )|  |  \\___ \\ \r\n/______
-    \ / |___|\\____ | |__| \\____/ |__| /____  >\r\n       \\/            \\/                       \\/
-    \n\n#####################\n\nYou are dead."
+  sceneDescription: "You died in a car crash.\r\nGoing home on a curvy road in a forest
+    you lost control of your vehicle,going of road but not very far through the short
+    grass until you went head first into a tree slamming your head on the drivers
+    wheel and leaving some notable wheel tracks along the way."
   sceneName: first scene
-  exits: []
+  exits:
+  - keyString:
+    - award
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    exitDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
+    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
   anyInputExit: 0
   actionsOnObjects:
-  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
-    keywordObject:
-    - 
-    resultDescription: "You died in a car crash.\r\nGoing home on a curvy road in
-      a forest you lost control of your vehicle,going of road but not very far through
-      the short grass until you went head first into a tree slamming your head on
-      the drivers wheel and leaving some notable wheel tracks along the way."
   - action: {fileID: 11400000, guid: 0807f4ba16dfa6a4991b2694075b6ec9, type: 2}
     keywordObject:
     - car
     resultDescription: Inside are you,the dead driver stuck to the steering wheel,nice
       job you idiot. Next to him is a cracked bottle leaving shards of glass everywhere
       among the passenger seat.Between all that pointy glass there is a label.In the
-      back there is a backpack but not much else worth of note.
+      backseat there is a backpack but not much else worth of note.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - car
@@ -98,17 +96,18 @@ MonoBehaviour:
     keywordObject:
     - wallet
     - money bag
-    resultDescription: There is a person ID card, credit card, a little bit of cash.
+    resultDescription: There is  personal ID , credit card, a little bit of cash.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
+    - personal id
     - id
-    - id card
     resultDescription: This is you with a picture of you, with your birth date.Nothing
       out of the ordinary here except you wished it told you when you died below your
       date of birth,maybe you could have done more things in your spare time.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - credit card
+    - card
     resultDescription: This is your credit card but you don't know if there is any
       money on it left.Whatever on it is left,you would have probably spend it on
       fast food and probably some sweets. Nice way of saving money you idiot.
@@ -121,8 +120,8 @@ MonoBehaviour:
       you make it harder on yourself by putting in that way.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
-    - back seat
-    - back
+    - backseat
+    - seat
     resultDescription: There is backpack between the front and back seat.It fell down
       there because of the car crash and luckily for it didn't fly out god knows where.Nothing
       else of importance but it is worth noting that the seats are black.
@@ -176,7 +175,7 @@ MonoBehaviour:
       or got lost or anything.Nothing else to say here.
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
-    - USB
+    - usb
     resultDescription: It is a 32 gb Usb all the usefull and useless stuff you could
       put on there.Everything from shows and movies, to forgoten left over homework
       folders to passion projects and work related stuff.You are never really quite
@@ -189,9 +188,11 @@ MonoBehaviour:
   - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
     - award
-    resultDescription: The award  is written out to you with price beeing 5000kn for
-      winning the game jam.You remembered something.
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
   exitScene:
-    action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - award
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
