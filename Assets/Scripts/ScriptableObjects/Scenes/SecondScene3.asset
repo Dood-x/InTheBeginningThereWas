@@ -28,6 +28,11 @@ MonoBehaviour:
     resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
       and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
   exitScene:
-    action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
+    action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - beer
+    - wine
+    - whiskey
+    - alcohol
+    resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
+      and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."

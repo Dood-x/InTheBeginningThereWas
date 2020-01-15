@@ -40,6 +40,9 @@ MonoBehaviour:
       later you hear that your team is winner of Global Game Jam. It's time for one
       more drink..."
   exitScene:
-    action: {fileID: 0}
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject: []
-    resultDescription: 
+    resultDescription: "You are seeing your fellow develeopers drunk and tired with
+      confused look on their face.\r\nEveryone is waiting for announcment and seconds
+      later you hear that your team is winner of Global Game Jam. It's time for one
+      more drink..."

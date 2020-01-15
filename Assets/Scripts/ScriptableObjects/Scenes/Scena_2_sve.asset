@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
-  m_Name: SecondScene
+  m_Name: Scena_2_sve
   m_EditorClassIdentifier: 
-  sceneDescription: "------------ CHAPTER 2 ------------------\n\nTHREE HOURS EARLIER:\nYou
-    are on the Global Game Jam location in local sports arena and participate in a
-    global game development competition.\r\nEveryone in your team are fighting about
-    the stupidity of the game and wants more from the prize money.\n"
+  sceneDescription: "THREE HOURS EARLIER:\n\nYou are on the Global Game Jam location
+    in local sports arena and participate in a global game development competition.\r\nEveryone
+    in your team are fighting about the stupidity of the game and wants more from
+    the prize money.\n"
   sceneName: second scene
   exits: []
   anyInputExit: 0
@@ -67,12 +67,48 @@ MonoBehaviour:
 
       You suddenly get invitation from someone who likes your game to go for a drink.
       He must be an idiot. '
-  exitScene:
-    action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - presentation
-    - present
-    - game
-    resultDescription: After you present the game the crowd starts screaming and cheering
-      and they are shocked because the game is ultimate fun. You are asking yourself
-      what kind of world do you live in.
+    - beer
+    - wine
+    - alcohol
+    - whiskey
+    resultDescription: 'You are at the bar ordering another bottle of wine. You cant
+      believe people like your game.
+
+      Everything is set for winners announcment and people are gathering in front
+      of main GGJ stage.
+
+      You suddenly get invitation from someone who likes your game to go for a drink.
+      He must be an idiot. '
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject: []
+    resultDescription: "You are seeing your fellow develeopers drunk and tired with
+      confused look on their face.\r\nEveryone is waiting for announcment and seconds
+      later you hear that your team is winner of Global Game Jam. It's time for one
+      more drink..."
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - beer
+    - 'wine '
+    - alcohol
+    - whiskey
+    resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
+      and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - 'beer '
+    - wine
+    - whiskey
+    - alcohol
+    resultDescription: You are getting more and more drunk an your vision gets blurry.
+      You can barely see the Trophy.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - trophy
+    resultDescription: Trophy is a big shiny cup and you are pouring wine into it.
+      You drink from it like a thirsty animal.
+  exitScene:
+    action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 

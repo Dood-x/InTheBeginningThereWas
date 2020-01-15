@@ -32,6 +32,8 @@ MonoBehaviour:
     resultDescription: Trophy is a big shiny cup and you are pouring wine into it.
       You drink from it like a thirsty animal.
   exitScene:
-    action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - trophy
+    resultDescription: Trophy is a big shiny cup and you are pouring wine into it.
+      You drink from it like a thirsty animal.
