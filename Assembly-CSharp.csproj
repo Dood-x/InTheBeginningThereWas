@@ -67,7 +67,9 @@
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\InputAction.cs" />
-    <Compile Include="Assets\Scripts\Keywords\Drink.cs" />
+    <Compile Include="Assets\Scripts\Keywords\DrinkBeer.cs" />
+    <Compile Include="Assets\Scripts\Keywords\DrinkWhiskey.cs" />
+    <Compile Include="Assets\Scripts\Keywords\DrinkWine.cs" />
     <Compile Include="Assets\Scripts\Keywords\Go.cs" />
     <Compile Include="Assets\Scripts\Keywords\Inspect.cs" />
     <Compile Include="Assets\Scripts\Keywords\Listen.cs" />
