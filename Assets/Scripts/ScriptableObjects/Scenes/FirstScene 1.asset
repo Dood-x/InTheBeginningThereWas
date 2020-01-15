@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: FirstScene 1
+  m_EditorClassIdentifier: 
+  sceneDescription: "You died in a car crash.\r\nGoing home on a curvy road in a forest
+    you lost control of your vehicle,going of road but not very far through the short
+    grass until you went head first into a tree slamming your head on the drivers
+    wheel and leaving some notable wheel tracks along the way."
+  sceneName: first scene
+  exits:
+  - keyString:
+    - award
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    exitDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
+    valueScene: {fileID: 11400000, guid: 4d68de7476005764b8828acf494f2078, type: 2}
+  anyInputExit: 0
+  actionsOnObjects:
+  - action: {fileID: 11400000, guid: 0807f4ba16dfa6a4991b2694075b6ec9, type: 2}
+    keywordObject:
+    - car
+    resultDescription: Inside are you,the dead driver stuck to the steering wheel,nice
+      job you idiot. Next to him is a cracked bottle leaving shards of glass everywhere
+      among the passenger seat.Between all that pointy glass there is a label.In the
+      backseat there is a backpack but not much else worth of note.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - car
+    resultDescription: 'Your car is nothing special,at least what''s left of it.It
+      is the right size for a normal family car with some dark green paint on it but
+      the front is totally totaled.You can''t even see the car''s badge anymore to
+      see which kompany made it,not like you cared about cars in the first '
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - wheel tracks
+    - tracks
+    resultDescription: The wheel tracks became more noticable off road leaving their
+      imprints in the ground,tearing apart the grass on the way to it's soon regretable
+      destination.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - glass
+    - broken glass
+    - bottle
+    - broken bottle
+    resultDescription: It is a bunch of broken glass that used to contain some kind
+      of beverage although you wished it contained some right about now.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - label
+    - glass label
+    - bottle label
+    resultDescription: On it is written Frankovka which is in your memory a tasty
+      red wine that is right for any occasion,specifically because every occasion
+      is the right occasion to drink.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - driver
+    - you
+    resultDescription: You took a heafty blow to your head leaving it glued to the
+      front wheel,something that you won't recover from so soon considering that you
+      are dead unless they are giving you a healthy big dose of aspirin to help you
+      with that headache.Blood is driping down,over your 5th favourite shirt saying
+      will work for green card and going all the way to your seat leaving an eternal
+      stain there.Your dark blue jeans leave a lot to be desired especially with those
+      posckets,one of which has something sticking out.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - shirt
+    - tshirt
+    resultDescription: You really thought it was a nice shirt,shame there is blood
+      in it now.Nothing that a little vanish hopefully can't fix.
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - pocket
+    - jeans
+    resultDescription: You found a wallet.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - wallet
+    - money bag
+    resultDescription: This is a brown leather wallet with plenty of space inside.You
+      bought it because it wasn't to expensive but it looked expensive enough to be
+      a nice wallet.
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - wallet
+    - money bag
+    resultDescription: There is  personal ID , credit card, a little bit of cash.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - personal id
+    - id
+    resultDescription: This is you with a picture of you, with your birth date.Nothing
+      out of the ordinary here except you wished it told you when you died below your
+      date of birth,maybe you could have done more things in your spare time.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - credit card
+    - card
+    resultDescription: This is your credit card but you don't know if there is any
+      money on it left.Whatever on it is left,you would have probably spend it on
+      fast food and probably some sweets. Nice way of saving money you idiot.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - cash
+    - money
+    resultDescription: This is your cash, there is not a lot of it but it's better
+      than nothing.It's in a folded state so that it can fit in more easily but ironically
+      you make it harder on yourself by putting in that way.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - backseat
+    - seat
+    resultDescription: There is backpack between the front and back seat.It fell down
+      there because of the car crash and luckily for it didn't fly out god knows where.Nothing
+      else of importance but it is worth noting that the seats are black.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - backpack
+    - rucksack
+    resultDescription: It is a dark backpack and it is closed.It is pretty with three
+      different sized compartments,but oddly enough you used only the middle one,out
+      of convience and force of habit it became the place where you put all your things
+      away no matter how little space there was.
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
+    keywordObject:
+    - backpack
+    - rucksack
+    resultDescription: "You opened the backpack and inside there are wraps of paper
+      from eaten sweets. \r\nOne blue slightly wrinkled notebook,a pencil box and
+      something at the bottom."
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - wraps
+    - paper
+    - wraps of paper
+    resultDescription: 'They are from the popular kinder brand and they contained
+      Kinder Pinguin and Maxi King.You remembered the sweet overexpensive taste that
+      you loved anyway because you had sort of a sweet tooth. '
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - notebook
+    - book
+    resultDescription: 'There are bunch of things written here, a bunch of semi colons
+      and intire lines that are written over wich at one point look like it could
+      make sense to you but now it just looks like a bunch of jiberish and of course
+      it does because you are an idiot. '
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - pencil box
+    - box
+    resultDescription: There is a ballpoint pen, pencil and a USB.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - ballpoint pen
+    - pen
+    resultDescription: It is your trusty ballpoint pen.It used to work fine and it
+      will probably work fine in the unforeseen future if somebody gets their hands
+      on it and decides to use it.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - pencil
+    resultDescription: It is your pencil.You bought it, you used it,it didn't break
+      or got lost or anything.Nothing else to say here.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - usb
+    resultDescription: It is a 32 gb Usb all the usefull and useless stuff you could
+      put on there.Everything from shows and movies, to forgoten left over homework
+      folders to passion projects and work related stuff.You are never really quite
+      sure what's on it until you inspect it in a computer.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - bottom
+    resultDescription: There is something sticking out and you see the letter award
+      on it.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - award
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.
+  exitScene:
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - award
+    resultDescription: The award is written out to you with price beeing 5000kn for
+      winning the game jam. You remembered something.

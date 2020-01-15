@@ -15,6 +15,14 @@ public class TextInput : MonoBehaviour
     }
     void AcceptInput(string userInput)
     {
+
+        if(controller.sceneNavigation.currentScene.anyInputExit)
+        {
+            controller.sceneNavigation.AttemptToChangeScenes("");
+            InputComplete();
+            return;
+
+        }
         userInput = userInput.ToLower();
         controller.LogStringWithReturn(userInput);
 
@@ -24,7 +32,7 @@ public class TextInput : MonoBehaviour
         bool accepted = false;
 
         bool foundAction = false;
-        InputAction action = null;
+        List<InputAction> actions = new List<InputAction>();
 
         //match the input action with the user input
         for (int i = 0; i < controller.inputActions.Length; i++)
@@ -45,19 +53,29 @@ public class TextInput : MonoBehaviour
                     if(matched)
                     {
                         foundAction = true;
-                        action = controller.inputActions[i];
-                        break;
+                        actions.Add(controller.inputActions[i]);
                     }
                 }
 
             }
         }
 
-        if(!foundAction)
+        if (!foundAction)
         {
             controller.LogStringWithReturn("Nothing happens.");
             InputComplete();
             return;
+        }
+
+        InputAction action = null;
+        int priority = 0;
+        foreach(InputAction e in actions)
+        {
+            if(e.priority >= priority)
+            {
+                priority = e.priority;
+                action = e;
+            }
         }
 
 
@@ -68,17 +86,23 @@ public class TextInput : MonoBehaviour
                 for(int i = 0; i < exit.keyString.Length; i++)
                 {
                     string objectKeyword = "";
-                    if (action.keyWord.Length < separatedInputWords.Length)
+                    for(int j =0; j < action.keyWord.Length; j++)
                     {
-                        objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
-                    }
+                        string[] actionWords = action.keyWord[j].Split(delimitedCharacters);
+                        if (actionWords.Length < separatedInputWords.Length)
+                        {
+                            objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
+                        }
 
-                    if (exit.keyString[i] == objectKeyword)
-                    {
-                        accepted = true;
-                        action.RespondToInput(controller, objectKeyword);
-                        break;
+                        if (exit.keyString[i] == objectKeyword)
+                        {
+                            accepted = true;
+                            action.RespondToInput(controller, objectKeyword);
+                            InputComplete();
+                            return;
+                        }
                     }
+                    
                 }
             }
         }
@@ -86,38 +110,33 @@ public class TextInput : MonoBehaviour
 
         if (accepted == false)
         {
-            foreach (ActionOnObject element in controller.sceneNavigation.currentScene.actionsOnObjects)
+            for(int j = 0; j <action.keyWord.Length; j++)
             {
-                for(int i = 0; i < controller.inputActions.Length; i++)
+                string[] actionWords = action.keyWord[j].Split(delimitedCharacters);
+
+                if(actionWords.Length <= separatedInputWords.Length)
                 {
-                    for(int j = 0; j < controller.inputActions[i].keyWord.Length; j++)
+                    bool matched = true;
+                    for(int z = 0; z < actionWords.Length; z++)
                     {
-                        string[] actionWords = controller.inputActions[i].keyWord[j].Split(delimitedCharacters);
+                        if (actionWords[z] != separatedInputWords[z])
+                            matched = false;
+                    }
 
-                        if(actionWords.Length <= separatedInputWords.Length)
+                    if(matched)
+                    {
+                        string objectKeyword = "";
+                        if(actionWords.Length < separatedInputWords.Length)
                         {
-                            bool matched = true;
-                            for(int z = 0; z < actionWords.Length; z++)
-                            {
-                                if (actionWords[z] != separatedInputWords[z])
-                                    matched = false;
-                            }
-
-                            if(matched)
-                            {
-                                string objectKeyword = "";
-                                if(actionWords.Length < separatedInputWords.Length)
-                                {
-                                    objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
-                                }
-
-                                accepted = controller.sceneNavigation.ExecuteActionOnObject(controller.inputActions[i], objectKeyword);
-                            }
+                            objectKeyword = separatedInputWords[separatedInputWords.Length - 1];
                         }
 
+                        accepted = controller.sceneNavigation.ExecuteActionOnObject(action, objectKeyword);
+                        InputComplete();
+                        return;
                     }
                 }
-                
+
             }
             
         }

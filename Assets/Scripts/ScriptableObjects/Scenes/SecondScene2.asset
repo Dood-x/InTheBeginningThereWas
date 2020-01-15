@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
+  m_Name: SecondScene2
+  m_EditorClassIdentifier: 
+  sceneDescription: 'After you present the game the crowd starts screaming and cheering
+    and they are shocked because the game is ultimate fun. You are asking yourself
+    what kind of world do you live in.
+
+    You suddenly get invitation from someone who likes your game to go for a drink.
+    He must be an idiot. '
+  sceneName: second scene 2
+  exits: []
+  anyInputExit: 0
+  actionsOnObjects:
+  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+    keywordObject:
+    - 'beer '
+    - wine
+    - alcohol
+    - whiskey
+    resultDescription: 'You are at the bar ordering another bottle of wine. You cant
+      believe people like your game.
+
+      Everything is set for winners announcment and people are gathering in front
+      of main GGJ stage.'
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject: []
+    resultDescription: "You are seeing your fellow develeopers drunk and tired with
+      confused look on their face.\r\nEveryone is waiting for announcment and seconds
+      later you hear that your team is winner of Global Game Jam. It's time for one
+      more drink..."
+  exitScene:
+    action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject: []
+    resultDescription: "You are seeing your fellow develeopers drunk and tired with
+      confused look on their face.\r\nEveryone is waiting for announcment and seconds
+      later you hear that your team is winner of Global Game Jam. It's time for one
+      more drink..."
