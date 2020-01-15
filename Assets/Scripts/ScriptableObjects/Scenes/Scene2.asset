@@ -12,18 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: Scene2
   m_EditorClassIdentifier: 
-  sceneDescription: 'next scene is described here
-
-'
+  sceneDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
+    and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
   sceneName: scene2
   exits:
   - keyString:
     - back
+    action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
     exitDescription: type go back to go back
     valueScene: {fileID: 11400000, guid: acbf0bb1a0f9e844b98a5ac0373e7f1d, type: 2}
-  sceneObjects:
-  - 
-  - 
   actionsOnObjects:
   - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
@@ -31,3 +28,7 @@ MonoBehaviour:
     - glass
     - asa
     resultDescription: thing is happen
+  exitScene:
+    action: {fileID: 0}
+    keywordObject: []
+    resultDescription: 

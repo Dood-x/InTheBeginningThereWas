@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class SceneNavigation : MonoBehaviour
 {
@@ -28,6 +29,16 @@ public class SceneNavigation : MonoBehaviour
 
     public void AttemptToChangeScenes(string sceneChangeNoun)
     {
+        if(sceneChangeNoun == "" && currentScene.anyInputExit)
+        {
+            Scene[] values = new Scene[exitDictionary.Values.Count];
+            exitDictionary.Values.CopyTo(values, 0);
+            currentScene = values[0];
+            controller.LogStringWithReturn("");
+            controller.DisplaySceneText();
+            return;
+        }
+
         if(exitDictionary.ContainsKey(sceneChangeNoun))
         {
             currentScene = exitDictionary[sceneChangeNoun];

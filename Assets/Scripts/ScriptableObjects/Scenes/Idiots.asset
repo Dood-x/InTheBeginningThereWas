@@ -12,76 +12,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15706542a2d0605499ccc0a2e0581456, type: 3}
   m_Name: Idiots
   m_EditorClassIdentifier: 
-  sceneDescription: In the background you can see the logo of Global Game Jam.
+  sceneDescription: "You\u2019re in the big hall where there are a lot of people sitting
+    in front of the computers. In the background you can see the logo of Global game
+    jam. There is a main stage in the center where something is happening."
   sceneName: 5idiots
   exits: []
-  sceneObjects: []
+  anyInputExit: 0
   actionsOnObjects:
-  - action: {fileID: 0}
+  - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
     keywordObject:
+    - to stage
+    - stage
     - 
     - 
     - 
     - 
-    - 
-    - 
-    resultDescription: Teams of people sitting around computers in a big hall.
-  - action: {fileID: 0}
+    resultDescription: Announcer is climbing the stage and taking the microphone.
+      He is talking something to the gathered crowd.
+  - action: {fileID: 11400000, guid: b2b79284b8f583444bdac73582468d5e, type: 2}
     keywordObject:
+    - to the man
+    - the man
+    - man
     - 
     - 
     - 
     - 
-    - 
-    - 
-    - 
-    resultDescription: There is main stage where somebody is saying something.
-  - action: {fileID: 0}
+    resultDescription: "The man is saying: \u201CWelcome everybody! Are you ready
+      to jam?! Welcome to the Global Game Jam! On the main screen you can see the
+      counter and we\u2019re about to start the jam.\""
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
+    - at the screen
+    - the screen
+    - screen
     - 
     - 
     - 
-    - 
-    - 
-    - 
-    resultDescription: "The man is saying: \"Welcome to the Global Game Jam!\"\r"
-  - action: {fileID: 0}
+    resultDescription: Screen has counter on it and it says 5 more minutes left. Teams
+      prepare!
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
+    - teams
+    - 
+    - 
+    - 
+    - 
+    - 
+    resultDescription: Some teams look like they are ready to rumble. They look like
+      they know what they are doing. But one team seems to be nervous.
+  - action: {fileID: 11400000, guid: ae74c430fc98a32499cf1124b2a816b3, type: 2}
+    keywordObject:
+    - to the teams
+    - the teams
+    - teams
     - 
     - 
     - 
     - 
     - 
     - 
-    resultDescription: '5 idiots are sitting in front of a computer. Looking at the
-      screen with their eyes wide open. They are tense. ou can see sweat on their
+    - 
+    - 
+    - 
+    - 
+    resultDescription: 5 idiots are sitting in front of a computer. Looking at the
+      screen with their eyes wide open. They are tense. You can see sweat on their
       foreheads. Tension can be cut with a knife. Clock is ticking. 10 more seconds.
-      9, 8 , 7... One of them falls from the chair, others don''t even notice. 5,
-      4... You can hear fly landing on one of them. 3, 2, 1. And we''re off. Message
-      appears on the screen:'
-  - action: {fileID: 0}
+      9, 8 , 7... One of them falls from the chair, others don't even notice.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
     keywordObject:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    resultDescription: "Message says: \"At the beginning there was?\"\r"
-  - action: {fileID: 0}
+    - at him
+    - him
+    - at man
+    - man
+    resultDescription: It is you idiot! You are drunk already.
+  - action: {fileID: 11400000, guid: dddbd5c74c5bb3244931b97da33d51d3, type: 2}
     keywordObject:
-    - 
-    resultDescription: The Big Bang
-  - action: {fileID: 0}
-    keywordObject: []
-    resultDescription: dfgd
+    - the idiot
+    - idiot
+    resultDescription: The idiot has bad breath from the alcohol. There are bottles
+      of cheap beer lying around. You can hear the clock ticking and the big screen
+      flashing.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - at the screen
+    - the screen
+    - screen
+    resultDescription: 5, 4... You can hear fly landing on one of the team members.
+      They are worried because of the drunk member because they realized what just
+      happened. Final seconds on the screen.
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - at the screen
+    - the screen
+    - screen
+    resultDescription: '3, 2, 1. And we''re off. Message appears on the monitor in
+      front of the team:'
+  - action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
+    keywordObject:
+    - at the monitor
+    - the monitor
+    - monitor
+    resultDescription: 'Message says: "At the beginning there was?" Nobody saw the
+      message because the were looking at the drunk idiot. Now they are angry because
+      they missed it and because they are wasting time. And they are thinking, at
+      the beginning there was what? Chaos? Who created it?'
+  - action: {fileID: 11400000, guid: 58481f8f0a910d7408a9e3ee9ab99f37, type: 2}
+    keywordObject:
+    - '?'
+    - who
+    resultDescription: You idiot!
   - action: {fileID: 0}
     keywordObject: []
     resultDescription: 
@@ -94,15 +135,7 @@ MonoBehaviour:
   - action: {fileID: 0}
     keywordObject: []
     resultDescription: 
-  - action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
-  - action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
-  - action: {fileID: 0}
-    keywordObject: []
-    resultDescription: 
-  - action: {fileID: 0}
+  exitScene:
+    action: {fileID: 0}
     keywordObject: []
     resultDescription: 
