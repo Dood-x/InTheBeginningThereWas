@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30a0e2bf241666949ac9a1fadb050255, type: 3}
-  m_Name: Drink
+  m_Name: DrinkBeer
   m_EditorClassIdentifier: 
+  priority: 0
   keyWord:
   - drink
   - use

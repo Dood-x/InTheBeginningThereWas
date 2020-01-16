@@ -42,11 +42,9 @@ MonoBehaviour:
       for second best and 100k for third best game. \nOut of the enormous frustration
       you go at the bar and order ten beers and 3 bottles of wine. Idiots makes you
       thirsty."
-  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+  - action: {fileID: 11400000, guid: d9e7447800592c84081d981866109b94, type: 2}
     keywordObject:
-    - beer
     - wine
-    - alcohol
     resultDescription: 'You drink all the bottles of alcohol and you are finishing
       the game. You are ready to build and upload this stupid game to the main Game
       Jam Site.
@@ -72,12 +70,9 @@ MonoBehaviour:
 
       You suddenly get invitation from someone who likes your game to go for a drink.
       He must be an idiot. '
-  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+  - action: {fileID: 11400000, guid: 0eaf2fe88ba1c7842ad64cbe4272ff49, type: 2}
     keywordObject:
-    - beer
-    - alcohol
-    - 
-    - 
+    - whiskey
     resultDescription: 'You are at the bar ordering another bottle of wine. You cant
       believe people like your game.
 
@@ -94,18 +89,12 @@ MonoBehaviour:
       more drink..."
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - 
-    - 'wine '
-    - 
-    - 
+    - wine
     resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
       and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
   - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
     keywordObject:
-    - ' '
-    - 
-    - whiskey
-    - 
+    - beer
     resultDescription: You are getting more and more drunk an your vision gets blurry.
       You can barely see the Trophy.
   exitScene:
