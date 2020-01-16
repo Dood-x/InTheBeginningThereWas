@@ -21,8 +21,7 @@ MonoBehaviour:
   - keyString:
     - award
     action: {fileID: 11400000, guid: ebeee52489643dc42a5d8496008d1f7e, type: 2}
-    exitDescription: The award is written out to you with price beeing 5000kn for
-      winning the game jam. You remembered something.
+    exitDescription: 
     valueScene: {fileID: 11400000, guid: 54c4df4930113044a8f2e091eaf7aa06, type: 2}
   anyInputExit: 0
   actionsOnObjects:

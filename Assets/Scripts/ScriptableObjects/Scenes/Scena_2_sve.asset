@@ -87,12 +87,12 @@ MonoBehaviour:
       confused look on their face.\r\nEveryone is waiting for announcment and seconds
       later you hear that your team is winner of Global Game Jam. It's time for one
       more drink..."
-  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+  - action: {fileID: 11400000, guid: d9e7447800592c84081d981866109b94, type: 2}
     keywordObject:
     - wine
     resultDescription: "You hold a Trophy on GGJ main stage and the crowd are cheering
       and applauding.\r\nEveryone drinks enormous amount of alcohol and celebrate..."
-  - action: {fileID: 11400000, guid: c0c049da7b7d7c94ab46de6d8b475b60, type: 2}
+  - action: {fileID: 11400000, guid: 0eaf2fe88ba1c7842ad64cbe4272ff49, type: 2}
     keywordObject:
     - beer
     resultDescription: You are getting more and more drunk an your vision gets blurry.

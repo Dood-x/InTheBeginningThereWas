@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DrinkWine
   m_EditorClassIdentifier: 
   priority: 0
-  keyWord: []
+  keyWord:
+  - drink wine
